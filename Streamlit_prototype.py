@@ -15,9 +15,7 @@ import pickle
 #from sklearn.model_selection import cross_val_score #only when testing
 np.random.seed(13) #random seed to keep predictions consistent
 
-PATH = "C:/Users/ms101/OneDrive/DataScience_ML/projects/Titanic/"
-
-forest_clf = pickle.load(open(PATH + "model.pickle",'rb'))
+forest_clf = pickle.load(open("model.pickle",'rb'))
 
 
 ## STREAMLIT
